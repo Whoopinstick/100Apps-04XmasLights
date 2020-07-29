@@ -56,12 +56,10 @@
 		0A8B274B24D1DB9F003CC155 /* 04 - Xmas Lights */ = {
 			isa = PBXGroup;
 			children = (
-				0A8B274C24D1DB9F003CC155 /* AppDelegate.swift */,
-				0A8B274E24D1DB9F003CC155 /* SceneDelegate.swift */,
-				0A8B275024D1DB9F003CC155 /* ContentView.swift */,
 				0A8B275224D1DBA1003CC155 /* Assets.xcassets */,
-				0A8B275724D1DBA1003CC155 /* LaunchScreen.storyboard */,
 				0A8B275A24D1DBA1003CC155 /* Info.plist */,
+				0A8B276024D1DBB1003CC155 /* Delegate */,
+				0A8B276124D1DBBF003CC155 /* View */,
 				0A8B275424D1DBA1003CC155 /* Preview Content */,
 			);
 			path = "04 - Xmas Lights";
@@ -73,6 +71,24 @@
 				0A8B275524D1DBA1003CC155 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0A8B276024D1DBB1003CC155 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				0A8B274C24D1DB9F003CC155 /* AppDelegate.swift */,
+				0A8B274E24D1DB9F003CC155 /* SceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		0A8B276124D1DBBF003CC155 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0A8B275724D1DBA1003CC155 /* LaunchScreen.storyboard */,
+				0A8B275024D1DB9F003CC155 /* ContentView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
